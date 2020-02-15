@@ -1,0 +1,26 @@
+{
+  "name": "Celebration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "nodemailer": "^6.4.2",
+    "pug": "^2.0.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goelabhishek694/Celebration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goelabhishek694/Celebration/issues"
+  },
+  "homepage": "https://github.com/goelabhishek694/Celebration#readme"
+}
