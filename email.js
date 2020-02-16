@@ -6,13 +6,13 @@ module.exports=async function (guest) {
   // Generate test SMTP service account from ethereal.email
   // Only needed if you don't have a real mail account for testing
   try{
-  let testAccount = await nodemailer.createTestAccount();
+  let testount = await nodemailer.createTestAccount();
   let transporter = nodemailer.createTransport({
     service: "gmail",
     host: "smtp.gmail.com",
     auth: {
-      user: "rsforever73@gmail.com", // enter company user id
-      pass: "eibjkwqseuupziag" // enter company pass 
+      user: "goelabhishek694@gmail.com", // enter company user id
+      pass: "vwyghgzcqakkhuta" // enter company pass 
     }
   });
 var subject,text,html;
@@ -55,7 +55,7 @@ var subject,text,html;
 <p>Deepti & Abhi</p>
    `
    let info = await transporter.sendMail({
-    from: '"RS FOREVER" <rsforever73@gmail.com>', // sender address
+    from: '"RS FOREVER" <goelabhishek694@gmail.com>', // sender address
     to: guest.email, // list of receivers
     subject: subject, // Subject line
     text:text, // plain text body

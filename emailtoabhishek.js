@@ -13,7 +13,7 @@ module.exports=async function (guest) {
     host: "smtp.gmail.com",
     auth: {
       user: "goelabhishek694@gmail.com", // enter company user id
-      pass: "yyprylwujvycfnhh" // enter company pass 
+      pass: "vwyghgzcqakkhuta" // enter company pass 
     }
   });
 var subject,text,html;
